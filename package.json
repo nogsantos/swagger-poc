@@ -1,0 +1,32 @@
+{
+  "name": "swaggerTest",
+  "version": "0.1.0",
+  "description": "swaggerTest api",
+  "scripts": {
+    "test": "./node_modules/.bin/serve ./build/reports/tests/test/ -p 8000 -o .",
+    "doc": "./node_modules/.bin/serve ./build/docs/javadoc/ -p 8000 -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogsantos/swaggerTest.git"
+  },
+  "keywords": [
+    "Api",
+    "Java",
+    "Gradle",
+    "Spring boot"
+  ],
+  "author": {
+    "name": "Fabricio Nogueira",
+    "email": "nogsantos@gmail.com",
+    "url": "http://fabricionogueira.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nogsantos/swaggerTest/issues"
+  },
+  "homepage": "https://github.com/nogsantos/swaggerTest#readme",
+  "devDependencies": {
+    "serve": "^6.4.8"
+  }
+}
